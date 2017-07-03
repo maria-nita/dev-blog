@@ -1,0 +1,253 @@
+body {
+    background: #ffffff;
+    /*height: 2250px;*/
+}
+
+header {
+    height: 7.33%;
+    margin: 0 6%;
+}
+
+h1 {
+    font-family: Inconsolata;
+    font-size: 30px;
+    padding: 3.11% 0;
+}
+
+.top-display {
+    margin: 0 6%;
+}
+
+.top-display img {
+    height: 22.57%;
+    width: 100%;
+}
+
+.main-story {
+    margin: 4.44% 13%;
+}
+
+h4 {
+    font-family: Ubuntu;
+    font-size: 14px;
+    color: #b4ad9e;
+    font-weight: lighter;
+}
+
+h2 {
+    color: #626262;
+    font-family: Playfair Dislay;
+    font-size: 30px;
+    padding: 1.466% 0;
+}
+
+p {
+    color: #626262;
+    font-family: Playfair Display;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+/*		TABLE SECTION STYLE GOES HERE			*/
+
+/*.upcoming-post {
+	margin: 4.44% 13%;
+	height: 10%;
+}
+
+table {
+	margin: 0 auto;
+}
+
+table caption {
+	text-align: left;
+	font-family: Ubuntu;
+    font-size: 14px;
+    color: #b4ad9e;
+    font-weight: lighter;
+	padding-bottom: 3%;
+}
+
+table th {
+	color: #626262;
+    font-family: Playfair Dislay;
+    font-size: 30px;
+	border-bottom: groove;
+	border-color: #f0f0f0f;
+	border-width: 0.5%;
+	padding: 5% 5%;
+}
+
+table td {
+	color: #626262;
+    font-family: Playfair Display;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+} */
+
+/*			TABLE SECTION ENDS			*/
+	
+.small-story {
+    overflow: hidden;
+    padding-bottom: 5.7%;
+}
+
+.secondary-story {
+    height: 21.3%;
+    margin: 0 13%;
+    /*overflow: hidden;*/
+    width: 75%;
+}
+
+.stories {
+    height: 100%;
+    width: 46%;
+    overflow: hidden;
+}
+
+/*  ------------------------- for mobile  ----------------------------  */
+
+@media only screen and (max-width: 768px) {
+    .stories {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+.stories:first-child {
+    float: left;
+}
+
+.stories:last-child {
+    float: right;
+}
+
+.stories img {
+    width: 100%;
+    height: 66%;
+}
+
+.stories h4 {
+    padding-top: 6.66%;
+}
+
+.stories h2 {
+    padding-top:6.458%;
+    padding-bottom: 8.541%;
+}
+
+.pre-footer {
+    height: 12.75%;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+}
+
+.pre-footer h2 {
+    padding-top: 3.24%;
+    padding-bottom: 3.822%;
+    text-align: center;
+}
+
+.email-stuff {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 32.5%;
+    padding-bottom: 3.2%;
+}
+
+form {
+    width: 100%;
+}
+form input{
+    border: none;
+    background: #f0f0f0;
+    float: left;
+    font-family: Playfair Display;
+    font-size: 14px;
+    color: #626262;
+    width: 70%;
+}
+
+button {
+    float: right;
+    border: none;
+    background: #f0f0f0;
+}
+/*
+form {
+    border: none;
+    width: 43.5%;
+    padding-top: 3.15%;
+}
+
+form input {
+    background-color: #f0f0f0;
+    border: none;
+   
+    line-height: 24px;
+    color: #626262;
+    text-align: left;
+    width: 100%;
+}
+
+.arrow {
+    float: right;
+    border: none;
+    background-color: #f0f0f0;
+    padding-top: 3.08%;
+}
+*/
+
+.line-pic {
+    width: 100%;
+}
+
+
+footer {
+    height: 4.44%;
+    background-color: #e5e5e5;
+    font-family: Playfair Display;
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.left-footer {
+    float: left;
+    margin-left: 12.5%;
+    margin-top: 1.77%;
+    margin-bottom: 1.77%;
+    width: 16.6%;
+}
+
+.left-footer li{
+    float: left;
+}
+
+.left-footer li:first-child {
+    padding-right: 9%;
+}
+
+.right-footer {
+    float: right;
+    margin-right: 6%;
+    margin-top: 1.77%;
+    margin-bottom: 1.77%;
+    width: 11.6%;
+}
+
+.right-footer li {
+    float: left;
+    margin-right: 11.43%;
+}
+
+.right-footer li:first-child{
+    margin-right: 17.14%;
+
+}
+
+.right-footer li:last-child{
+    margin-right: 0;
+}
